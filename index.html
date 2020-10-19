@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>M 201 Webchat</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+</head>
+<body>
+    <div id="loginFormDiv">
+        <form id ="loginForm">
+            <input 
+            id="loginInput"
+            type="text"
+            placeholder="Enter Username..."
+            required
+            autocomplete="off"
+            name="input"
+            class="rounded" />
+            <input type="submit" class="submitButton" value="Submit">
+            <!--<button class="submitButton">Submit</button> -->
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
