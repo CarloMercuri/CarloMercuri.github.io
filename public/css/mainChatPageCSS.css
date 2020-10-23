@@ -1,0 +1,11 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:#eee;
+	background:url('../img/page_bg.jpg');
+	font:15px Calibri,Arial,sans-serif;
+	
+}
